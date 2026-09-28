@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saddam Shah | Software Developer</title>
+    <meta name="description" content="Portfolio of Saddam Shah, Self-taught programmer and Software Developer based in Navi Mumbai.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <div class="logo">Saddam<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-in">
+            <div class="hero-content">
+                <div class="greeting">Hello, world! I am</div>
+                <h1 class="name" id="profile-name">Saddam Shah</h1>
+                <h2 class="role">Team Lead & <br><span class="gradient-text">Full-Stack Developer</span></h2>
+                <p class="bio" id="profile-bio">
+                    Building AI Agents, MCP Servers, and intelligent workflows. Specialist in .NET & SQL Stacks, and scalable RAG solutions. Available for end-to-end projects.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="https://github.com/saddamshahuet" target="_blank" class="btn secondary-btn" id="github-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img id="profile-img" src="https://github.com/saddamshahuet.png" alt="Saddam Shah">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills fade-in">
+            <div class="section-header">
+                <h2>Tech Stack</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card"><i class="fa-brands fa-microsoft"></i><span>.NET</span></div>
+                <div class="skill-card"><i class="fa-solid fa-database"></i><span>SQL Stack</span></div>
+                <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                <div class="skill-card"><i class="fa-solid fa-brain"></i><span>AI / LLMs</span></div>
+                <div class="skill-card"><i class="fa-solid fa-code-branch"></i><span>MCP Servers</span></div>
+                <div class="skill-card"><i class="fa-brands fa-js"></i><span>TypeScript</span></div>
+                <div class="skill-card"><i class="fa-solid fa-layer-group"></i><span>System Architecture</span></div>
+                <div class="skill-card"><i class="fa-solid fa-users"></i><span>Team Leadership</span></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects fade-in">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/saddamshahuet" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">AI Social Analytics SaaS</h3>
+                        <p class="project-description">
+                            Comprehensive SaaS platform utilizing AI for deep social media sentiment analysis, trend prediction, and engagement tracking.
+                        </p>
+                        <ul class="project-tech">
+                            <li>TypeScript</li>
+                            <li>Python</li>
+                            <li>AI Models</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/saddamshahuet" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Enterprise RAG Pipeline</h3>
+                        <p class="project-description">
+                            Highly scalable Retrieval-Augmented Generation system for contextual AI search over massive document stores.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Vector DBs</li>
+                            <li>LLM Integrations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact fade-in">
+            <div class="contact-box glass-panel">
+                <h2>Let's Connect</h2>
+                <p>I am currently available for work on a project basis. Reach out if you need a scalable and robust software solution!</p>
+                <div class="social-links">
+                    <a href="https://github.com/saddamshahuet" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/923396106991" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="mailto:contactme@saddamshah.me" class="btn primary-btn mt-4">Email contactme@saddamshah.me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Built with <i class="fa-solid fa-heart" style="color: var(--accent);"></i> by Saddam Shah</p>
+        <p class="copyright">&copy; 2025 All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
