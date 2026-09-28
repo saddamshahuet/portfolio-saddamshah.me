@@ -499,22 +499,6 @@ section {
 }
 
 /* =========================================
-   Footer
-   ========================================= */
-footer {
-    text-align: center;
-    padding: 2rem;
-    font-family: var(--font-mono);
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
-.copyright {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-}
-
-/* =========================================
    Animations
    ========================================= */
 .fade-in {
