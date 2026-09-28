@@ -85,7 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('profile-bio').textContent = data.bio;
             }
             if (data.avatar_url) {
-                document.getElementById('profile-img').src = data.avatar_url;
+                // We are using a custom generated avatar now!
+                // document.getElementById('profile-img').src = data.avatar_url;
             }
             if (data.html_url) {
                 document.getElementById('github-link').href = data.html_url;
